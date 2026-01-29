@@ -56,4 +56,5 @@ git clone [https://github.com/Dr0n41kL0xness/russian_hatespeech_classifier.git](
 cd russian_hatespeech_classifier
 
 python predict.py
+```
 > **Примечание:** Обученная модель (fine-tuned) автоматически подгружается из моего репозитория на [Hugging Face](https://huggingface.co/Dr0n41k/rubert-toxic-classifier).
