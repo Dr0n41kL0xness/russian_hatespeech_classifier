@@ -48,7 +48,12 @@
 *Матрица подтверждает высокую предсказательную способность модели. Основные ошибки сосредоточены в зоне False Positives, что мы разобрали в разделе Error Analysis.*
 
 ## 🚀 Как запустить
-1. Клонировать репозиторий:
-   ```bash
-   git clone [https://github.com/ВАШ_НИК/russian-hate-speech-classifier.git](https://github.com/ВАШ_НИК/russian-hate-speech-classifier.git)
+Вы можете проверить работу классификатора в одну ячейку прямо в Google Colab или локальном терминале:
+
+```bash
+git clone [https://github.com/Dr0n41kL0xness/russian_hatespeech_classifier.git](https://github.com/Dr0n41kL0xness/russian_hatespeech_classifier.git)
+
+cd russian_hatespeech_classifier
+
+python predict.py
 > **Примечание:** Обученная модель (fine-tuned) автоматически подгружается из моего репозитория на [Hugging Face](https://huggingface.co/Dr0n41k/rubert-toxic-classifier).
