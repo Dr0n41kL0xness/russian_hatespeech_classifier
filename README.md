@@ -51,3 +51,4 @@
 1. Клонировать репозиторий:
    ```bash
    git clone [https://github.com/ВАШ_НИК/russian-hate-speech-classifier.git](https://github.com/ВАШ_НИК/russian-hate-speech-classifier.git)
+> **Примечание:** Обученная модель (fine-tuned) автоматически подгружается из моего репозитория на [Hugging Face](https://huggingface.co/Dr0n41k/rubert-toxic-classifier).
